@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="/image/pooja_logo-removebg-preview.png"  class="logo"> -->
+                 <h2>Pooja.</h2>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <!-- <li><a href="#experience">Experience</a></li> -->
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-txt">
+                
+                <div class="div1">
+                <h1>Hello, I'm <span>Pooja</span>Thakur  </h1>
+                <p class="java">Full Stack Developer</p>
+        
+            <a href="image/Pooja flowcv.pdf" download="" class="btn btn2" style="border-radius: 150px;">Download CV</a>
+    
+                </div>
+                <div class="div2">
+                    
+                    <!-- <img src="image/pooji.jpeg" alt="img"> -->
+                    
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+
+    <!-- About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/pooji-removebg-preview.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Highly skilled full stack developer along with having good knowledge of frontend skills such as HTML, CSS, JavaScript,React and backend skills such as NodeJS, Express, MongoDB to develop, design and deliver user-centric web applications to boost engagement. Effective collaborator with an immense passion for building good tech software.</p>
+<div class="tab-titles">
+    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+    <p class="tab-links" onclick="opentab('education')">Education</p>
+</div>
+<div class="tab-contants active-tab" id="skills">
+    <ul>
+        <li><span>Web Development</span><br>HTML, CSS, Bootstrap and responsive design.</li>
+        <li><span>Front-end frameworks</span><br>React, Redux.</li>
+        <li><span>Back-end technologies</span><br>Node.js, Express, MongoDB.</li>
+        <li><span>Programing Languages</span><br>JavaScript.</li>
+    </ul>
+    
+</div>
+
+<div class="tab-contants" id="experience">
+    <ul>
+      
+        <li><span>Page Up Pvt Ltd. Web Developer-Intern</span><br>  August 2023 – January 2024 | Jabalpur,India</li>
+        <li><span>Tech_OctaNet Services Pvt Ltd. Web Development Intern </span><br>June 2024 – Present | Bangaluru, Karnataka</li>
+        
+    </ul>
+    
+</div>
+
+<div class="tab-contants" id="education">
+    <ul>
+        <li><span>MASTER OF SCIENCE</span><br>M.G.M.M College, Jabalpur,India. </li>
+        <li><span>BACHELOR OF SCIENCE</span><br>M.G.M.M College, Jabalpur,India.</li>
+        <li><span>BACHELOR OF EDUCATION</span><br>Rani Durgavati Vishwavidyalaya</li>
+        <li><span>FULL STACK DEVELOPMENT COURSE</span><br>knowledgehut UpGrad</li>
+    </ul>
+    
+</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Projects -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+            <div class="work">
+            <img src="image/Blog App - Opera 01-06-2024 13_37_26.png" alt=""> 
+            
+                <div class="layer">
+                    <h3>Travel Blog App</h3>
+                    
+                    <p>Travel blog-app is an application where the user can login, view, update and delete his travel post with logout functionality.</p>
+                    <a href="https://travel-frontend-hkrg.onrender.com"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/Blog App - Opera 01-06-2024 13_41_28.png" alt="">
+                <div class="layer">
+                    <h3>Book Store App</h3>
+                    
+                    <p>Book-store application helps the user to add and delete the books of their choice. The user can update and delete the post.</p>
+                    <a href="https://book-client-9xny.onrender.com"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/Screenshot 01-06-2024 18_12_43.png" alt="">
+                <div class="layer">
+                    <h3>E-Commerce Website</h3>
+                    
+                    <p>Fashion website is an online website focusing on Ecommerce products like clothing, accessories, shoes etc. for men, women, children of all age groups.</p>
+                    <a href="https://beautiful-capybara-6d9b7c.netlify.app/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn" style="color: black;">See more</a>
+    </div>
+</div>
+
+<!-- Contact -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>pooja2810rohit@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>7648905851</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100047264902972"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://github.com/Pooja1thakur"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://instagram.com/rhit___poojathakur"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/pooja-thakur-273429222/"><i class="fa-brands fa-linkedin"></i></a>
+
+                </div>
+                <a href="image/Pooja flowcv.pdf" download="" class="btn btn2">Download CV</a>
+            </div>
+
+
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+<div class="copyright">
+    <p>Copyright © Pooja | 2023</p>
+</div>
+</div>
+
+
+
+
+
+    <script>
+
+        var tablinks= document.getElementsByClassName('tab-links')
+        var tabcontants= document.getElementsByClassName('tab-contants')
+
+
+
+        function opentab(tabname){
+for(tablink of tablinks){
+    tablink.classList.remove("active-link")
+}
+for(tabcontant of tabcontants ){
+    tabcontant.classList.remove("active-tab")
+}
+event.currentTarget.classList.add("active-link")
+
+
+document.getElementById(tabname).classList.add('active-tab')
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById('sidemenu')
+        function openmenu(){
+            sidemenu.style.right="0";
+
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+            
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzdG-767nApYfzAELtIkWsUXHknn0qhdTdugjYJeKjTzXwyZoYz4Iy6NQY6dmtmeQis3w/exec'
+        const form = document.forms['submit-to-google-sheet']
+      const msg=document.getElementById('msg')
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
